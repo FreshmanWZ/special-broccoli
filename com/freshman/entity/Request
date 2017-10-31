@@ -1,0 +1,10 @@
+@Entity
+public class Request{
+ private Integer RequestNo;
+ private List<Item> items;
+ private double totalPrice;
+ private Employee requester;
+ private bool isPLChecked;
+ private bool isMainLChecked;
+ 
+}
