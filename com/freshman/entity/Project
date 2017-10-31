@@ -1,7 +1,7 @@
 @Entity
 public class Project{
-  private Integer projectNo;
-  private String projectName;
-  private Employee PL;
-  private Set<Employee> members;
+  private Integer projectNo;//项目的主键
+  private String projectName;//项目名
+  private Employee PL;//项目的负责人
+  private Set<Employee> members;//项目的成员
 }
